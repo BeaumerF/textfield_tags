@@ -47,6 +47,11 @@ class TagsStyler {
 
 ///[TextFieldStyler] allows you to design the exact style you want for your textfield by using its properties. It must not be [null]
 class TextFieldStyler {
+  
+  final String label;
+
+  final TextStyle labelStyle;
+  
   /// The color of the decoration inside the textfield
   final Color textFieldFilledColor;
 
