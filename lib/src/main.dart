@@ -121,6 +121,8 @@ class _TextFieldTagsState extends State<TextFieldTags> {
   @override
   Widget build(BuildContext context) {
     return TextField(
+      labelText: widget.textFieldStyler.label,
+      labelStyle: widget.textFieldStyler.labelStyle,
       controller: _textEditingController,
       autocorrect: false,
       cursorColor: widget.textFieldStyler.cursorColor,
